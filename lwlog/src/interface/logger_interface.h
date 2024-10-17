@@ -1,6 +1,6 @@
 #pragma once
 
-#include <details/log_message.h>
+#include "details/log_message.h"
 #include "details/pattern/attribute.h"
 #include "details/argument_format.h"
 
