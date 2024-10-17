@@ -60,7 +60,7 @@ write_basic_package_version_file(
 )
 
 configure_package_config_file(
- ${CMAKE_CURRENT_SOURCE_DIR}/build/_deps/lwlog_lib-src/Config.cmake.in
+ ${CMAKE_CURRENT_SOURCE_DIR}/Config.cmake.in
  "${CMAKE_CURRENT_BINARY_DIR}/lwlog_lib-config.cmake"
  INSTALL_DESTINATION ${CMAKE_INSTALL_LIBDIR}/cmake
 )
