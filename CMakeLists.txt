@@ -25,7 +25,7 @@ target_include_directories(lwlog_lib PRIVATE ${CMAKE_SOURCE_DIR}/lwlog/src/)
 add_library(lwlog::lwlog_lib ALIAS lwlog_lib)
 
 message("Creating lwlog sandbox")
-add_executable(lwlog_sandbox ${CMAKE_SOURCE_DIR}/Sandbox/Sandbox.cpp)
+add_executable(lwlog_sandbox ${CMAKE_SOURCE_DIR}/build/_deps/lwlog_lib-src/Sandbox/Sandbox.cpp)
 target_include_directories(lwlog_sandbox PRIVATE ${CMAKE_SOURCE_DIR}/lwlog/src/)
 
 message("Linking libraries")
